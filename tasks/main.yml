@@ -1,2 +1,8 @@
 ---
-# tasks file for .
+- name: registering the result of that command `hostname` as a variable. 
+  command: hostname
+  register: hostname
+
+- name: Display the HOSTNAME.
+  debug:
+    msg: "HOSTNAME: {{ hostname.stdout }}"
