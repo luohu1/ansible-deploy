@@ -1,0 +1,12 @@
+galaxy_info:
+  author: luohu1
+  description: Deploy application.
+  company: LH
+  license: license (BSD, MIT)
+  min_ansible_version: 2.9
+  platforms:
+    - name: MacOSX
+      versions:
+        - 10.15
+  galaxy_tags:
+    - deploy
