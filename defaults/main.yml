@@ -1,2 +1,4 @@
 ---
-# defaults file for .
+package:
+  remote_src: http://example.com/packages/app-v1.0.0.tar.gz
+  local_dest: /app/packages/app-v1.0.0.tar.gz
